@@ -1,4 +1,8 @@
-//Changing the behaviour at the Runtime;
+
+//This is the Stratergy Pattern
+//Strategy Pattern enables selecting an algorithm’s behavior at runtime
+//Open/Closed Principle: You can add new strategies without modifying existing code.
+//Reomove if else 
 public interface FlyBehvaiour
 {
     public void fly();
