@@ -47,19 +47,11 @@ public class Duck
 {
     public QuackBehaviour quackbehaviour;
     public FlyBehvaiour flybehaviour;
-    public setflybehaviour(quack2 qb)
+    public setquackbehaviour(QuackBehaviour qb)
     {
         this.quackbehaviour = qb;
     }
-    public setflybehaviour(quack1 qb)
-    {
-        this.quackbehaviour = qb;
-    }
-    public setquackbehaviour(NoFly fy)
-    {
-        this.flybehaviour = fy;
-    }
-    public setquackbehaviour(FlywithWings fy)
+    public setflybehaviour(FlyBehvaiour fy)
     {
         this.flybehaviour = fy;
     }
