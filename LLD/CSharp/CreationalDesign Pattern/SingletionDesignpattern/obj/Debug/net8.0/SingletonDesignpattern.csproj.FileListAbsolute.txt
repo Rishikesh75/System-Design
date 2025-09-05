@@ -1,0 +1,15 @@
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\bin\Debug\net8.0\SingletonDesignpattern.exe
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\bin\Debug\net8.0\SingletonDesignpattern.deps.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\bin\Debug\net8.0\SingletonDesignpattern.runtimeconfig.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\bin\Debug\net8.0\SingletonDesignpattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\bin\Debug\net8.0\SingletonDesignpattern.pdb
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.AssemblyInfoInputs.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.AssemblyInfo.cs
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.csproj.CoreCompileInputs.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.sourcelink.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\refint\SingletonDesignpattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.pdb
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\SingletonDesignpattern.genruntimeconfig.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\CreationalDesign Pattern\SingletionDesignpattern\obj\Debug\net8.0\ref\SingletonDesignpattern.dll
