@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ChainofResponsibility": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
