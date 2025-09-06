@@ -1,0 +1,15 @@
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\bin\Debug\net8.0\AdaptorPattern.exe
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\bin\Debug\net8.0\AdaptorPattern.deps.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\bin\Debug\net8.0\AdaptorPattern.runtimeconfig.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\bin\Debug\net8.0\AdaptorPattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\bin\Debug\net8.0\AdaptorPattern.pdb
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.AssemblyInfoInputs.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.AssemblyInfo.cs
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.csproj.CoreCompileInputs.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.sourcelink.json
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\refint\AdaptorPattern.dll
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.pdb
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\AdaptorPattern.genruntimeconfig.cache
+C:\Users\kreddy\Documents\System-Design\LLD\CSharp\StructuralDesign Pattern\ConsoleApp1\obj\Debug\net8.0\ref\AdaptorPattern.dll

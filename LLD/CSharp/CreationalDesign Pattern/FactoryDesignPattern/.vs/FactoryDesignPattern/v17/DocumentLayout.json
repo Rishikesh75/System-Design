@@ -1,33 +1,14 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\FactoryDesignPattern\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FBAA2136-FCEA-4186-B204-A1A0ED4ACA0A}|..\\BuilderPattern\\BuilderPattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\builderpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1DAFB9-0134-48F5-8B36-04754989FBA6}|..\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\abstractfactorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2ECE89-B377-4CEC-96B7-198061355DD3}|..\\ProtoTypePattern\\ProtoTypePattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\prototypepattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB2ECE89-B377-4CEC-96B7-198061355DD3}|..\\ProtoTypePattern\\ProtoTypePattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\prototypepattern\\prototypepattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA1D6A0-FFEB-4E49-B765-8A92E93F0DCA}|..\\SingletionDesignpattern\\SingletonDesignpattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\singletiondesignpattern\\singletondesignpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDA1D6A0-FFEB-4E49-B765-8A92E93F0DCA}|..\\SingletionDesignpattern\\SingletonDesignpattern.csproj|c:\\users\\kreddy\\documents\\system-design\\lld\\csharp\\creationaldesign pattern\\singletiondesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 165,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -37,12 +18,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
         {
-          "DockedWidth": 440,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 475,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,82 +40,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\BuilderPattern\\Program.cs",
-              "RelativeDocumentMoniker": "..\\BuilderPattern\\Program.cs",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\BuilderPattern\\Program.cs",
-              "RelativeToolTip": "..\\BuilderPattern\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T05:42:48.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\AbstractFactoryPattern\\Program.cs",
-              "RelativeDocumentMoniker": "..\\AbstractFactoryPattern\\Program.cs",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\AbstractFactoryPattern\\Program.cs",
-              "RelativeToolTip": "..\\AbstractFactoryPattern\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswEQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T05:42:18.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProtoTypePattern.csproj",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\ProtoTypePattern\\ProtoTypePattern.csproj",
-              "RelativeDocumentMoniker": "..\\ProtoTypePattern\\ProtoTypePattern.csproj",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\ProtoTypePattern\\ProtoTypePattern.csproj",
-              "RelativeToolTip": "..\\ProtoTypePattern\\ProtoTypePattern.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T20:43:24.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\ProtoTypePattern\\Program.cs",
-              "RelativeDocumentMoniker": "..\\ProtoTypePattern\\Program.cs",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\ProtoTypePattern\\Program.cs",
-              "RelativeToolTip": "..\\ProtoTypePattern\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T20:07:25.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SingletonDesignpattern.csproj",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\SingletionDesignpattern\\SingletonDesignpattern.csproj",
-              "RelativeDocumentMoniker": "..\\SingletionDesignpattern\\SingletonDesignpattern.csproj",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\SingletionDesignpattern\\SingletonDesignpattern.csproj",
-              "RelativeToolTip": "..\\SingletionDesignpattern\\SingletonDesignpattern.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T19:41:23.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\SingletionDesignpattern\\Program.cs",
-              "RelativeDocumentMoniker": "..\\SingletionDesignpattern\\Program.cs",
-              "ToolTip": "C:\\Users\\kreddy\\Documents\\System-Design\\LLD\\CSharp\\CreationalDesign Pattern\\SingletionDesignpattern\\Program.cs",
-              "RelativeToolTip": "..\\SingletionDesignpattern\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T17:19:19.662Z"
             },
             {
               "$type": "Bookmark",
