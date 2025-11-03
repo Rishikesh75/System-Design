@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StateMeathodDesignPattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ed160be28e49c96ab665420fe4caced41fd5033")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a13e4df813af118ef57f4fad1b1b0b6c825fb72")]
 [assembly: System.Reflection.AssemblyProductAttribute("StateMeathodDesignPattern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StateMeathodDesignPattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

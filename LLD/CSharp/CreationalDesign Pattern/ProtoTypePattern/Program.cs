@@ -2,39 +2,53 @@
 namespace ProtoTypePattern
 {
 
-    interface Student
+    public interface Iproduct
     {
-        Student Clone();
-        void display();
+        Iproduct clone();
+    
     }
 
-    class Prototype : Student
-    { 
-        
-        public Student Clone()
+    public class TV : Iproduct
+    {
+        string tvName = "LG";
+
+        public TV() { }
+        public Iproduct clone()
         {
-            return new Prototype();
-        }
-        public void display()
-        {
-            Console.WriteLine("This is New Prototype");
+            return new TV();
         }
     }
 
+    public class Prototype
+    {
+        Iproduct product;
 
+        public Prototype(Iproduct prdouct)
+        {
+            this.product = prdouct;
+        }
+
+        public Iproduct CreateProtoType()
+        {
+            return product.clone();
+        }
+    }
 
     public class Program
-    {
+    { 
         public static void Main(string[] args)
         {
-            Console.WriteLine("ProtoType Pattern");
-            Prototype prototype = new Prototype();
-            Student prototype_1 = prototype.Clone();
-             prototype_1.display();
-            return;
+            TV tv = new TV();
+            Prototype p = new Prototype(tv);
+            Iproduct tv2 = p.CreateProtoType();
+
+
         }
-        
+    
     }
+
+
+
 
 
 

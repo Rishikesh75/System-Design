@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FactoryDesignPattern"
+    "\\AbstractFactoryPattern",
+    "\\BuilderPattern",
+    "\\FactoryDesignPattern",
+    "\\ProtoTypePattern",
+    "\\SingletionDesignpattern"
   ],
-  "SelectedNode": "\\FactoryDesignPattern\\Program.cs",
+  "SelectedNode": "\\FactoryDesignPattern\\FactoryDesignPattern.sln",
   "PreviewInSolutionExplorer": false
 }

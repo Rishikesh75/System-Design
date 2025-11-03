@@ -1,33 +1,30 @@
 ﻿using System;
 namespace SingletonDesignpattern
 {
-    public class School
+    public class Trimble
     {
-        private static readonly School _instance = new School();
-        public static School Instance
-        {
-            get { return _instance; }
-        }
+        private static Trimble trimble = new Trimble();
 
-        private string _name;
-        public string Name
+        public static Trimble Instance()
         {
-            get => _name;
-            set => _name = value;
+            return trimble;
         }
     }
 
-
-    public class Prgram
+    public class Program
     {
         public static void Main(string[] args)
         {
-            School s1 = School.Instance;
-            s1.Name = "ABC High School";
-
-            School s2 = School.Instance;
-            Console.WriteLine($"{s2.Name}");
-
+            Trimble t1 = Trimble.Instance();
+            Trimble t2 = Trimble.Instance();
+            if(t1 == t2)
+            {
+                Console.WriteLine("Sucessfully Implemented Singletonpattern");
+            }
+            else
+            {
+                Console.WriteLine("Not SucessFully Implemendted Singletonpattern");
+            }
         }
     }
     
