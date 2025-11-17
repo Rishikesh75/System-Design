@@ -1,33 +1,33 @@
-﻿using System;
-namespace SingletonDesignpattern
+﻿namespace SingletonDesignpattern
 {
-    public class Trimble
+    public class SingletonClass
     {
-        private static Trimble trimble = new Trimble();
+        private static SingletonClass _instance = new SingletonClass();
 
-        public static Trimble Instance()
+        public static SingletonClass Instance
         {
-            return trimble;
+            get { return _instance; }
         }
     }
+
+
 
     public class Program
     {
+
         public static void Main(string[] args)
         {
-            Trimble t1 = Trimble.Instance();
-            Trimble t2 = Trimble.Instance();
-            if(t1 == t2)
+            SingletonClass obj1 = SingletonClass.Instance;
+            SingletonClass obj2 = SingletonClass.Instance;
+            if (ReferenceEquals(obj1, obj2))
             {
-                Console.WriteLine("Sucessfully Implemented Singletonpattern");
+                Console.WriteLine("Singleton Pattern is working Fine.....");
             }
-            else
-            {
-                Console.WriteLine("Not SucessFully Implemendted Singletonpattern");
-            }
+            return;
         }
     }
-    
+
+
 
 }
 

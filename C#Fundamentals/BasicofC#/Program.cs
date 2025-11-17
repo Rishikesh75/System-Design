@@ -1,195 +1,176 @@
-﻿using System.Runtime.InteropServices;
-namespace HelloWorld;
-
-class Teacher
-{
-    //Data Members..
-    //Member Functions..
-    private string name;
-    //Property
-    public string Name { get { return name; } set { name = value; } }
-
-    public override string ToString()
-    {
-        return name;
-    }
-}
-
-struct student
-{
-    int id;
-    string name;
-}
-
-interface IAnimal
-{
-    void Speak();
-}
-
-public class Dog : IAnimal
-{
-    public void Speak()
-    {
-        Console.WriteLine("Woof!");
-    }
-}
-
+﻿namespace HelloWorld;
 class Program
 {
-    public delegate void HelloDelegate(string message);
-    public void DisplayMessage(string message)
+    public class Node
     {
-        Console.WriteLine(message);
+        public int Value;
+        public Node? Next; // nullable struct to allow null
+
+        public Node(int value)
+        {
+            Value = value;
+            Next = null;
+        }
     }
-    public static void HelloWorld()
+
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hi This is Coure Where I Completly Learn About Csharp...");
+
+        //Numeric Data Types..
+        int a = 10;
+        long b = 20;
+        float c = 30.5f;
+        double d = 40.5;
+        bool isTrue = true;
+        Console.WriteLine($"int:{a} long:{b} float:{c} double:{d} Bool:{isTrue}");
+
+
+        //String Data Type..
+        char ch = 'a';
+        string str = "Hello, World!";
+        Console.WriteLine($"char:{ch} string:{str}");
+
+
+        //Convert the String into Numeric Data Types..
+        string s = "1234";
+        int intValue = int.Parse(s);
+        double doubleValue = double.Parse(s);
+        Console.WriteLine($"String to int:{intValue} String to double:{doubleValue}");
+
+        //Convert Numeric Data Types into String..
+        int num = 5678;
+        string strValue = num.ToString();
+        Console.WriteLine($"int to String:{strValue}");
+
+        //Operattors
+        //Arthimatic Operators: + - * / %;
+        //Logical Operators: && || !;
+        //Assignment Operators: = += -= *= /= %=;   
+        //postincreament : ++ , -- ;
+
+        //var Keyword
+        var ans = "This is the var Operator...";
+        Console.WriteLine($"This is the var operator:{ans}");
+
+        //Const KeyWord: We cann't use var Here..
+        const int myConst = 100;
+        Console.WriteLine($"This is the const keyword:{myConst}");
+
+        Console.WriteLine("Enter the Input....");
+        if (int.TryParse(Console.ReadLine(), out int result))
+        {
+            Console.WriteLine($"You Entered Value is:{result}");
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Could not parse to int.");
+        }
+
+        Console.WriteLine("Enter the Number...");
+        if (int.TryParse(Console.ReadLine(), out int number))
+        {
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("The Number is Even...");
+            }
+            else
+            {
+                Console.WriteLine("The Number is Odd...");
+            }
+            switch (number)
+            {
+                case 1:
+                    Console.WriteLine("The Number is One...");
+                    break;
+                case 0:
+                    Console.WriteLine("The Number is Zero...");
+                    break;
+                default:
+                    Console.WriteLine("The Number is Neither One Nor Zero's...");
+                    break;
+            }
+
+            for (int i = 0; i < number; i++)
+            {
+                Console.Write($"{i}\t");
+            }
+            Console.WriteLine();
+
+            int i = 0;
+            while (i != number)
+            {
+                Console.WriteLine($"{i}\t");
+                i++;
+            }
+            Console.WriteLine();
+
+            //Conditional Operator
+            int value = number % 2 == 0 ? 1 : 0;
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Could not parse to int.");
+        }
+
+        try
+        {
+            Console.WriteLine("Enter a number to divide by zero:");
+            if (int.TryParse(Console.ReadLine(), out int divNum))
+            {
+                int divResult = divNum / 0;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Could not parse to int.");
+            }
+        }
+        catch (Exception Ex)
+        {
+            Console.WriteLine($"Exception Occured:{Ex.Message}");
+        }
+
+        //foreach(char c in value)
+        int[] arr = { 1, 2, 3, 4, 5 };
+        foreach (int item in arr)
+        {
+            Console.WriteLine($"Array Items:{item}");
+        }
+
+        int n;
+        int.TryParse(Console.ReadLine(), out n);
+        int[] newarr = new int[n];
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Enter element {i}: ");
+            arr[i] = int.Parse(Console.ReadLine());
+        }
+
+        //List in c#
+        List<int> list = new List<int>();
+        list.Append(int.Parse(Console.ReadLine()));
+        foreach (int i in list)
+        {
+
+        }
+
+        //Dictionary
+        Dictionary<int, string> dict = new Dictionary<int, string>();
+        dict.Add(1, "Rishi");
+        foreach (var i in dict)
+        {
+            Console.WriteLine(i.Key + ": " + i.Value);
+        }
     }
-    public static int Add(int a, int b)
+
+    public void SampleMethod()
+    {
+        Console.WriteLine("This is a Sample Method...");
+    }
+
+    public int add(int a, int b)
     {
         return a + b;
     }
-    public static void chagenumber(ref int number)
-    {
-        number = number + 10;
-    }
-    public static void tempfunc([Optional] int b)
-    {
 
-    }
-    public static void Main(string[] args)
-    {
-        ////Console.WriteLine("Hello, World!");
-
-        //////DataTypes :(int,Long),(float,double),(char,string),bool
-        ////int intvar = 25;
-        ////Console.WriteLine($"int:{intvar}");
-        ////long longvar = 23232L;
-        ////Console.WriteLine($"long:{longvar}");
-        ////float floatvar = 25.5f;
-        ////Console.WriteLine($"float:{floatvar}");
-        ////double doublevar = 55.55D;
-        ////Console.WriteLine($"double:{doublevar}");
-        ////char charvar = 'A';
-        ////Console.WriteLine($"char:{charvar}");
-        ////string stringvar = "Hello C#";
-        ////Console.WriteLine($"string:{stringvar}");
-        ////bool boolvar = true;
-        ////Console.WriteLine($"Bool:{boolvar}");
-
-        //////Convert string Number;
-        ////int number = Convert.ToInt32("1234");
-        ////Console.WriteLine($"Converted Number:{number}");
-        ////float floatnumber = Convert.ToSingle("12.34");
-        ////Console.WriteLine($"Converted Float Number:{floatnumber}");
-        ////double doublenumber = Convert.ToDouble("56.78");
-        ////Console.WriteLine($"Converted Double Number:{doublenumber}");
-
-
-        //////Operators : Arithmetic,Relational,Logical,Bitwise 
-        //////Arthmetic Operators: + , - , * , /(Division) , %(Remainder) , ++ , --,
-        //////Realational Operators: == , != , > , < , >= , <=
-        //////Logical Operators: && , || , !
-        //////Bitwise Operators: &(AND), |(OR) , ^(XOR) , ~(NOT) , <<(left shift) , >>(Right Shift)
-        //////Assignment Operators: = , += , -= , *= , /= , %=
-
-        //////var Keyword similar to auto keyword in C++
-        ////var varint = 100;
-        ////var varstring = "This is a var string";
-        ////var vardouble = 99.99;
-
-        //////Cont KeyWord Once Declared Cannot be changed
-        ////const double pi = 3.14159;
-        //////pi = 12; This will give error
-
-
-        //////Odd or Even Number
-        ////int num;
-        ////Console.WriteLine("Enter a number to check Odd or Even:");
-        ////num = Convert.ToInt32(Console.ReadLine());
-        ////if (num % 2 == 0)
-        ////{
-        ////    Console.WriteLine($"{num} is Even Number");
-        ////}
-        ////else
-        ////{
-        ////    Console.WriteLine($"{num} is Odd Number");
-        ////}
-
-        ////switch (num%2)
-        ////{
-        ////    case 0:
-        ////        Console.WriteLine($"{num} is Even Number (Using Switch)");
-        ////        break;
-        ////    case 1:
-        ////        Console.WriteLine($"{num} is Odd Number (Using Switch)");
-        ////        break;
-        ////    default:
-        ////        Console.WriteLine("Invalid Input");
-        ////        break;
-
-        ////}
-        ////for(int ival=0;ival<4;i++)
-        ////{
-        ////    Console.WriteLine($"For Loop Iteration:{ival}");
-        ////}
-        ////int i = 0;
-        ////while (i != 4)
-        ////{
-        ////    Console.WriteLine($"While Loop Iteration:{i}");
-        ////    i++;
-        ////}
-        //////int.TryParse(Console.ReadLine(), out i); return Boolean True if no Error Else Return False..
-        //////float.TryParse(Console.ReadLine(), out floatnumber);
-        ////char.TryParse(Console.ReadLine(),out charvar);
-
-        ////string value = @"This is String that Escapes \n \t \r \\etc..";
-        ////Console.WriteLine($"Verbitose String:{value}");
-
-        ////string scheck;
-        ////scheck = Console.ReadLine();
-        ////if(!string.IsNullOrEmpty(scheck))
-        ////{
-        ////    if (scheck == string.Empty)
-        ////    {
-        ////        Console.WriteLine("This is a Empty String...");
-        ////    }
-        ////}
-        ////int n =Convert.ToInt32(Console.ReadLine());
-        ////int[] arr = new int[n];
-        ////for(int ir=0;ir<n;ir++)
-        ////{
-        ////     arr[ir] = Convert.ToInt32(Console.ReadLine());
-        ////}
-        ////List<int> list = new List<int>();
-        ////for (int ir = 0; ir < n; ir++)
-        ////{
-        ////    list.Add(Convert.ToInt32(Console.ReadLine()));
-        ////}
-        ////for(int ir = 0;ir<n;ir++)
-        ////{
-        ////    Console.WriteLine($"List Element {ir}:{list[ir]}");
-        ////}
-        ////Dictionary<int,string>dict = new Dictionary<int, string>();
-        ////dict.Add(1, "One");
-        ////foreach(KeyValuePair<int,string>item in dict)
-        ////{
-        ////     Console.WriteLine($"Key:{item.Key},Value:{item.Value}");
-        ////}
-
-        //////c++ : Push_back c#: Add
-        ////Out: Need not be Intialized Before Use
-        ////ref: Need to be Intialized Before Use
-        //StringBuilder str = new StringBuilder();
-        //HelloWorld();
-        //int n;
-        //int.TryParse(Console.ReadLine(), out n);
-        //Console.WriteLine($"Original Number:{n}");
-        //chagenumber(ref n);
-        //Console.WriteLine($"Changed Number:{n}");
-        //HelloDelegate = DisplayMessage("fasf");
-
-
-
-    }
 }
