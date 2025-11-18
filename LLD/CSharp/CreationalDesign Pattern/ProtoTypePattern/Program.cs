@@ -1,58 +1,32 @@
-﻿using System;
-namespace ProtoTypePattern
+﻿namespace PrototypePattern;
+
+public interface Iproduct
+{
+    public Iproduct Clone();
+}
+
+public class TV : Iproduct
+{
+    public string Name = "TV_1";
+    public Iproduct Clone()
+    {
+        return (Iproduct)this.MemberwiseClone();
+    }
+}
+
+
+public class Program
 {
 
-    public interface Iproduct
+    public static void Main()
     {
-        Iproduct clone();
-    
-    }
-
-    public class TV : Iproduct
-    {
-        string tvName = "LG";
-
-        public TV() { }
-        public Iproduct clone()
+        TV tv = new TV();
+        TV tv2 = (TV)tv.Clone();
+        if (tv != tv2 && tv.Name == tv2.Name)
         {
-            return new TV();
+            Console.WriteLine("Prototype Pattern Is working Fine heree..");
         }
     }
-
-    public class Prototype
-    {
-        Iproduct product;
-
-        public Prototype(Iproduct prdouct)
-        {
-            this.product = prdouct;
-        }
-
-        public Iproduct CreateProtoType()
-        {
-            return product.clone();
-        }
-    }
-
-    public class Program
-    { 
-        public static void Main(string[] args)
-        {
-            TV tv = new TV();
-            Prototype p = new Prototype(tv);
-            Iproduct tv2 = p.CreateProtoType();
-
-
-        }
-    
-    }
-
-
-
-
-
-
 
 
 }
-
