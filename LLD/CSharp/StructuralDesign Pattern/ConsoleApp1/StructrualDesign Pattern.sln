@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptorPattern", "..\AdaptorPattern\AdaptorPattern.csproj", "{D872D0FB-5BF5-4FE7-AF59-5055CA92D37C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "..\BuilderPattern\BuilderPattern.csproj", "{8C261674-037F-421A-BC1E-142F9D93AB71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "..\BuilderPattern\BridgePattern.csproj", "{8C261674-037F-421A-BC1E-142F9D93AB71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "..\CompositePattern\CompositePattern.csproj", "{1E71E37F-D63F-4623-873C-9A5B5F0F6AE8}"
 EndProject
